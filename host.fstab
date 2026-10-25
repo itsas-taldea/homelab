@@ -1,0 +1,13 @@
+# /etc/fstab
+
+/dev/pve/root / ext4 errors=remount-ro 0 1
+UUID=6250-17D2 /boot/efi vfat defaults 0 1
+/dev/pve/swap none swap sw 0 0
+/dev/vault/data /mnt/vault/data ext4 errors=remount-ro 0 0
+/dev/vg-work/usera /mnt/vault/work/usera ext4 errors=remount-ro 0 0
+/dev/vg-vault/backups-usera /mnt/vault/work/usera/backups ext4 errors=remount-ro 0 0
+/dev/vg-work/userb /mnt/vault/work/userb ext4 errors=remount-ro 0 0
+/dev/vg-vault/backups-userb /mnt/vault/work/userb/backups ext4 errors=remount-ro 0 0
+/dev/vg-storage/ubuntu22-xilinx2022.2 /mnt/ubuntu22-xilinx2022.2 ext4 errors=remount-ro 0 0
+/dev/vg-storage/ubuntu24-ise14.7 /mnt/ubuntu24-ise14.7 ext4 errors=remount-ro 0 0
+/proc /proc proc defaults 0 0

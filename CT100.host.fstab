@@ -1,0 +1,7 @@
+# /etc/fstab
+
+10.10.200.1:/mnt/ubuntu22-xilinx2022.2 /tools/ubuntu22-xilinx2022.2 nfs defaults 0 0
+10.10.200.1:/mnt/ubuntu24-ise14.7 /tools/ubuntu24-ise14.7 nfs defaults 0 0
+10.10.200.1:/mnt/vault/data /data nfs defaults 0 0
+10.10.200.1:/mnt/vault/work/usera /work/usera nfs defaults 0 0
+10.10.200.1:/mnt/vault/work/userb /work/userb nfs defaults 0 0

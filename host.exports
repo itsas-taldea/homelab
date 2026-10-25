@@ -1,0 +1,9 @@
+# /etc/exports
+
+/mnt/vault/work/usera 10.10.200.100(rw,sync,no_subtree_check,no_root_squash,nohide,crossmnt)
+/mnt/vault/work/userb 10.10.200.100(rw,sync,no_subtree_check,no_root_squash,nohide,crossmnt) 10.10.200.224(rw,sync,no_subtree_check,no_root_squash,nohide,crossmnt)
+
+/mnt/vault/data 10.10.200.100(ro,sync,no_subtree_check) 10.10.200.224(ro,sync,no_subtree_check) 10.10.200.211(ro,sync,no_subtree_check)
+
+/mnt/ubuntu22-xilinx2022.2 10.10.200.100(ro,sync,no_subtree_check,nohide,crossmnt)
+/mnt/ubuntu24-ise14.7 10.10.200.100(ro,sync,no_subtree_check,nohide,crossmnt)
